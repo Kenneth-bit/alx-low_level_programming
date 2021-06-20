@@ -3,7 +3,7 @@
 #include <time.h>
 /**
  * main - Entry point
- * description - Prints all base 10 single digits
+ * description - Prints all base 10 single digits combos
  * Return: Always 0 (Success)
  */
 int main(void)
