@@ -13,9 +13,9 @@ int main(void)
 
 	for (num = 48; num <= 56; num++)
 	{
-		for (dig = 48; dig <= 57; dig++)
+		for (dig = 49; dig <= 57; dig++)
 		{
-			if (num > dig)
+			if (dig > num)
 			{
 				putchar(num);
 				putchar(dig);
