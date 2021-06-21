@@ -15,7 +15,7 @@ int main(void)
 	{
 		for (dig = 0; dig < 100; dig++)
 		{
-			if (dig < num)
+			if (dig > num)
 			{
 				putchar((num / 10) + 48);
 				putchar((num % 10) + 48);
