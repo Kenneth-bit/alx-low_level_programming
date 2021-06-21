@@ -12,7 +12,7 @@ int main(void)
 
 	for (c = 0; c <= 58; c++)
 	{
-		putchar(quote[c]);
+		putchar(q[c]);
 	}
 	putchar('\n');
 	return (0);
