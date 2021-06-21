@@ -5,7 +5,7 @@ int main() {
     long int longType;
     long long int longlongType;
     char charType;
-    long long int longlongType;
+   
 
     // sizeof evaluates the size of a variable
     printf("Size of a char: %zu byte(s)\n", sizeof(charType));
