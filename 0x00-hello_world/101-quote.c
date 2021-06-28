@@ -6,7 +6,7 @@
  */
 int main(void)
 {
-	char q[59] = "and that piece of art is useful\" - Dora Korpar, 2015-10-19";
+	char q[] = "and that piece of art is useful\" - Dora Korpar, 2015-10-19";
 	int c;
 
 	for (c = 0; c <= 59; c++)
