@@ -9,7 +9,7 @@ int main(void)
 	char q[] = "and that piece of art is useful\" - Dora Korpar, 2015-10-19";
 	int c;
 
-	for (c = 0; c < 59; c++)
+	for (c = 0; q[c] != '\0'; c++)
 	{
 		putchar(q[c]);
 	}
