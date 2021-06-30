@@ -24,10 +24,17 @@ void print_alphabet_x10(void);
  * Return - Return 1 if @c is lower case, otherwise return 0
  */
 int _islower(int c);
- /*
-  * _isalpha - checks for alphabetic character
-  * @c: character to check
-  * @r: stores the return value of _isalpha
-  * Return - 1 if @c is alpha, otherwise return 0
-  */
+/*
+ * _isalpha - checks for alphabetic character
+ * @c: character to check
+ * @r: stores the return value of _isalpha
+ * Return - 1 if @c is alpha, otherwise return 0
+ */
 int _isalpha(int c);
+/*
+ * print_sign - prints the sign of a number
+ * @n: number to check
+ * @r: stores the return value of _isalpha
+ * Return - 1 if is positive, 0 if is zero and -1 if negative
+ */
+int print_sign(int n);
