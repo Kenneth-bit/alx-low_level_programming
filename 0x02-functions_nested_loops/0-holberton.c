@@ -1,10 +1,9 @@
 #include "holberton.h"
-/*
+/**
  * main - Entry point
- *
+ * description - Prints Holberton
  * Return: Always 0 (Success)
  */
-
 
 int main(void)
 {
