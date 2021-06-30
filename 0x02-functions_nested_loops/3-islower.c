@@ -2,9 +2,10 @@
 
 /**
  * _islower - Checks if character is lowercase
- * Return: 1 if c is lowercase
+ * Return: 1 if @c is lowercase
  * otherwise return 0
- * r is used to store the result of _islower
+ * @r: is used to store the result of _islower
+ * @c: number passed into _islower
  */
 
 int _islower(int c)
@@ -15,7 +16,7 @@ int _islower(int c)
 	{
 		res = 1;
 	}
-	else if (c >= 'A' && c <= 'Z')
+	else
 	{
 		res = 0;
 	}
