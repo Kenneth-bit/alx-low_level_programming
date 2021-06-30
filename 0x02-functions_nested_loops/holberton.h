@@ -43,3 +43,8 @@ int print_sign(int n);
   * Return - the absolute value of a number
   */
 int _abs(int);
+/**
+  * print_last_digit - prints the last digit of a number
+  * Return - the value of the last digit
+  */
+int print_last_digit(int);
