@@ -20,7 +20,7 @@ void print_alphabet_x10(void);
 /*
  * _islower - checks for lower case character
  * @c: character to check
- * 
- * Return - Return if @c is lower case, otherwise return 0
+ * @r: stores the return of _islower in main.c
+ * Return - Return 1 if @c is lower case, otherwise return 0
  */
  int _islower(int c);
