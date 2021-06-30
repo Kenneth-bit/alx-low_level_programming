@@ -38,3 +38,8 @@ int _isalpha(int c);
  * Return - 1 if is positive, 0 if is zero and -1 if negative
  */
 int print_sign(int n);
+/**
+  * _abs - computes the absolute value of an int
+  * Return - the absolute value of a number
+  */
+int _abs(int);
