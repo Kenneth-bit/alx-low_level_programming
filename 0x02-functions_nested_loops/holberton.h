@@ -23,4 +23,11 @@ void print_alphabet_x10(void);
  * @r: stores the return of _islower in main.c
  * Return - Return 1 if @c is lower case, otherwise return 0
  */
- int _islower(int c);
+int _islower(int c);
+ /*
+  * _isalpha - checks for alphabetic character
+  * @c: character to check
+  * @r: stores the return value of _isalpha
+  * Return - 1 if @c is alpha, otherwise return 0
+  */
+int _isalpha(int c);
