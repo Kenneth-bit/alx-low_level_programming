@@ -13,7 +13,14 @@ int _putchar(char c);
  */
 void print_alphabet(void);
 /*
- 11  * print_alphabet - prints the alphabet in lower case 10 times
- 12  * Return : void
- 13  */
+ * print_alphabet_x10 - prints the alphabet in lower case 10 times
+ * Return : void
+ */
 void print_alphabet_x10(void);
+/*
+ * _islower - checks for lower case character
+ * @c: character to check
+ * 
+ * Return - Return if @c is lower case, otherwise return 0
+ */
+ int islower(int c);
