@@ -11,21 +11,21 @@ int print_sign(int n)
 	int res;
 	char sign;
 
-	if (c == 0)
+	if (n == 0)
 	{
 		sign = '0';
 		res = 0;
 	}
-	else if (c > 0)
+	else if (n > 0)
 	{
 		sign = '+';
 		res = 1;
 	}
-	else if (c < 0)
+	else if (n < 0)
 	{
 		sign = '-';
 		res = -1;
 	}
-	_putchar("%c", sign);
+	_putchar(sign);
 	return (res);
 }
