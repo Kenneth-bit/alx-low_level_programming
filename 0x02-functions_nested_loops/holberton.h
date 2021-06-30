@@ -23,4 +23,4 @@ void print_alphabet_x10(void);
  * 
  * Return - Return if @c is lower case, otherwise return 0
  */
- int islower(int c);
+ int _islower(int c);
