@@ -1,5 +1,5 @@
 #include <unistd.h>
-/**
+/*
  * _putchar - writes the character c to stdout
  * @c: The character to print
  *
@@ -8,7 +8,12 @@
  */
 int _putchar(char c);
 /*
- * print_alphbet - prints the alphabet in lower case
+ * print_alphabet - prints the alphabet in lower case
  * Return : void
  */
 void print_alphabet(void);
+/*
+ 11  * print_alphabet - prints the alphabet in lower case 10 times
+ 12  * Return : void
+ 13  */
+void print_alphabet_x10(void);
