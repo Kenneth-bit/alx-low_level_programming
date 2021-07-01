@@ -9,18 +9,19 @@
 int print_last_digit(int n)
 {
 	int res;
+	char num;
 
 
 	if (n < 0)
 	{
 		res = (n * -1) % 10;
-		num = res;
+		num = '0' + res;
 	}
 	else if (n > 0)
 	{
 
 		res = n % 10;
-		num = res;
+		num = '0' + res;
 	}
 	_putchar(num);
 	return (res);
