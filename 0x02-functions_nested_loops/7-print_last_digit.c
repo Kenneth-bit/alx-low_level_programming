@@ -6,20 +6,19 @@
  * Return: the last digit of n
  */
 
-int print_last_digit(int n)
+int print_last_digit(int digit)
 {
 
-	int digit;
-
-	if (n <= 0)
+	if (digit <= 0)
 	{
-		digit = (n * -1) % 10;
+		digit = (digit * -1) % 10;
+		_putchar('0' + digit);
 	}
-	else if (n >= 0)
+	else if (digit >= 0)
 	{
 
-		digit = n % 10;
+		digit = digit % 10;
+		_putchar('0' + digit);
 	}
-	_putchar(digit);
 	return (digit);
 }
