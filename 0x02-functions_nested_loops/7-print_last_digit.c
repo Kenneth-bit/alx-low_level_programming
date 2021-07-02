@@ -2,7 +2,7 @@
 
 /**
  * print_last_digit - computes the absolute value of int
- * @n: number to be considered
+ * @digit: number to be considered
  * Return: the last digit of n
  */
 
