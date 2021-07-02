@@ -21,6 +21,5 @@ int print_last_digit(int n)
 		digit = n % 10;
 	}
 	_putchar(digit);
-	_putchar(digit);
 	return (digit);
 }
