@@ -57,4 +57,4 @@ void jack_bauer(void);
   * times_tables - prints the 9 times table, starting with 0.
   * Return - void
   */
-void times_tables(void);
+void times_table(void);
