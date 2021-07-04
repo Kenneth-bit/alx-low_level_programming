@@ -3,7 +3,7 @@
 /**
  * times_table - function prints the 9 times table, starting with 0
  * rw = row
- * cl = column 
+ * cl = column
  * d = digits of current result
  * Return: times table
  * add extra space past single digit
