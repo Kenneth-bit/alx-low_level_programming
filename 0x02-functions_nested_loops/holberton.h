@@ -53,3 +53,8 @@ int print_last_digit(int);
  * Return - void
  */
 void jack_bauer(void);
+/**
+  * times_tables - prints the 9 times table, starting with 0.
+  * Return - void
+  */
+void times_tables(void);
