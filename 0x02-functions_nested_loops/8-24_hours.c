@@ -2,8 +2,6 @@
 
 /**
   * jack_bauer - function that prints every minute of the day
-  * @hour: hours
-  * @min: minutes
   * Return: void
   */
 
