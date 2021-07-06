@@ -68,3 +68,9 @@ int add(int, int);
   * Return - void
   */
 void print_to_98(int n);
+/**
+  * print_times_table - prints the n times tables, starting with 0.
+  * Return - void
+  *
+  */
+void print_times_table(int n);
