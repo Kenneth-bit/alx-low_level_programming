@@ -1,2 +1,1 @@
-# ALX Low Level Programming
-## This will house my C Programmes for my alx project
+## This Table explains what each script does
