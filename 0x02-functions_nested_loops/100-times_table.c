@@ -14,11 +14,12 @@ void print_times_table(int n)
 
 	if (n > 0 && n <= 15)
 	{
-		for (rone = 0; rone <= n; rone++)
+	/*	for (rone = 0; rone <= n; rone++)
 		{
 			_putchar('0');
 			_putchar(',');
 			_putchar(' ');
+	*/
 			for (cone = 1; cone <= n; cone++)
 			{
 				d = (rone * cone);
