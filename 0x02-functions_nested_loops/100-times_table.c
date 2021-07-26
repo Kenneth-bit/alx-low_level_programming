@@ -16,8 +16,7 @@ void print_times_table(int n)
 	{
 		for (rone = 0; rone <= n; rone++)
 		{
-			_putchar('0');
-			for (cone = 1; cone <= n; cone++)
+			for (cone = 0; cone <= n; cone++)
 			{
 				d = (rone * cone);
 				if ((d / 10) > 0)
