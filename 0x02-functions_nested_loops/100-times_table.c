@@ -32,6 +32,7 @@ void print_times_table(int n)
 				if (cone < n)
 				{
 					_putchar(',');
+					_putchar(' ');
 				}
 			}
 			_putchar('\n');
