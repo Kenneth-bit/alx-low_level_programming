@@ -1,41 +1,52 @@
-#include "holberton.h"
+#include "main.h"
 
 /**
- * times_table -  a function that prints the 9 times table, starting with 0
- * rone = row, cone = column, d = digits of current result, n = number to be
- * printed
- * Return: n times table
- * add extra space past single digit
+ * print_times_table - prints the n times table starting with 0 between 0-15
+ * @n: Integer
+ *
+ * Return: On success 1.
+ * On error, -1 is returned, and errno is set appropriately.
  */
-
 void print_times_table(int n)
 {
-	int rone, cone, d;
+	int i, j, k;
 
-	if (n > 0 && n <= 15)
+	if (n >= 0 && n < 15)
 	{
-		for (rone = 0; rone <= n; rone++)
+		for (i = 0; i <= n; i++)
 		{
-			for (cone = 0; cone <= n; cone++)
+			for (j = 0; j <= n; j++)
 			{
-				d = (rone * cone);
-				if ((d / 10) > 0)
+				k = i * j;
+				if (j != 0)
 				{
-					_putchar((d / 10) + '0');
+					_putchar (',');
+					_putchar (' ');
+				if (k >= 10 && k < 100)
+				{
+					_putchar (' ');
+					_putchar (k / 10 + '0');
+					_putchar (k % 10 + '0');
+				}
+				else if (k < 10)
+				{
+					_putchar (' ');
+					_putchar (' ');
+					_putchar (k + '0');
 				}
 				else
 				{
-					_putchar(' ');
-				}
-				_putchar((d % 10) + '0');
-
-				if (cone < n)
-				{
-					_putchar(',');
-					_putchar(' ');
+					_putchar (k / 100 + '0');
+					_putchar ((k / 10) % 10 + '0');
+					_putchar (k % 10 + '0');
 				}
 			}
-			_putchar('\n');
+			else
+			{
+				_putchar (k  + '0');
+			}
+			}
+		_putchar('\n');
 		}
 	}
 }
