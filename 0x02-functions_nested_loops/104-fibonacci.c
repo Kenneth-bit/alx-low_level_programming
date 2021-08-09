@@ -1,13 +1,28 @@
 #include <stdio.h>
-#include <stdlib.h>
-#include "holberton.h"
+
 /**
- * main - Entry point
+ * main - program that prints the first 50 fibonacci numbers
+ * a: first number
+ * b: second number
+ * i: Integer
+ * r: Result
+ * Return: On success 1.
  *
- * Return: Always 0 (Success)
  */
+
 int main(void)
 {
+	int i;
+	long a = 1, b = 2, r = 0;
 
+	printf("1, 2");
+	for (i = 1; i <= 96; i++)
+	{
+		r = a + b;
+		a = b;
+		b = r;
+		printf(", %ld", r);
+	}
+	putchar('\n');
 	return (0);
 }
