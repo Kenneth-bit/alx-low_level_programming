@@ -1,4 +1,5 @@
 #include "main.h"
+#include <stdlib.h>
 void closer(int arg_files);
 /**
  * main - Entry Point
