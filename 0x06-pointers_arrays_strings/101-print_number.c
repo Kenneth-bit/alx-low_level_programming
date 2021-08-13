@@ -1,7 +1,7 @@
 #include "main.h"
 
 /**
- * print_number -  checks for checks for a digit (0 through 9).
+ * print_number - prints an integer.
  * @n: n -  Variable
  * Return: Always 0.
  */
