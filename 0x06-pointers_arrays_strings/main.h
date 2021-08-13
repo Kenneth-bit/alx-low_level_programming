@@ -1,5 +1,5 @@
-#ifndef HOLBERTON_H
-#define HOLBERTON_H
+#ifndef MAIN_H
+#define MAIN_H
 
 int _putchar(char c);
 char *_strcat(char *dest, char *src);
@@ -11,5 +11,6 @@ char *string_toupper(char *n);
 char *cap_string(char *n);
 char *leet(char *n);
 char *rot13(char *n);
+void print_number(int n);
 
-#endif /* HOLBERTON_H */
+#endif /* MAIN_H */
