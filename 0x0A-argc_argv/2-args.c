@@ -1,5 +1,6 @@
 #include <stdio.h>
 #include "main.h"
+
 /**
  * main - Entry Point
  * @argc: arguments
@@ -15,5 +16,6 @@ int main(int argc, char *argv[])
 	{
 		printf("%s\n", argv[count]);
 	}
+
 	return (0);
 }
